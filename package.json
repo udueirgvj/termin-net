@@ -1,0 +1,16 @@
+{
+  "name": "termin-blockchain-monitor",
+  "version": "1.0.0",
+  "description": "Blockchain deposit monitor for Termin wallet",
+  "main": "blockchain_monitor.js",
+  "scripts": {
+    "start": "node blockchain_monitor.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
